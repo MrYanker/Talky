@@ -1,1 +1,41 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="http://code.jquery.com/qunit/git/qunit.css" type="text/css" media="screen" />
+<head>Welcome To Talky</header>
+<meta charset="utf-8"/>
+<title>This is talky</title>
+<script type="text/javascript">
+var button = document.createElement("button");
+button.innerHTML = "Click Here To Begin";
+// 2. Append somewhere
+var body = document.getElementsByTagName("body")[0];
+body.appendChild(button);
+// 3. Add event handler
+button.addEventListener ("click", function() {
+// 4. Talky Code
+  var myName = prompt("What's your name?")
+if (myName.length >= 2)
+{
+alert("Nice to meet you" + " " + myName)
+}
+    else
+    {
+        
+    }
+    alert("Options = 1.) Good or 2.) Bad")
+    var myMood = prompt("How are you today")
+    if (myMood.length <= 3)
+    {
+     prompt("Why? What's wrong")   
+     alert("That's not good to hear")
+     alert("Well I'm going to have to get going. Cya later. And i hope things get better for you.") 
+    }
+    else
+    {
+        alert("Option = 1.) How about you")
+     prompt("That's Good to hear.")  
+     alert("Good. Thanks for asking")
+    }
+});
+</script>
+</html>
