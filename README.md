@@ -6,3 +6,11 @@ But I'm working on making it an actual application.
 Because currently its just a HTML5 file using the JavaScript portion of HTML5.
 But its still pretty cool!!! Its one of the first things I've ever coded.
 And I think I've done pretty good for my first program.
+
+# Header 1
+## Header 2
+### Header 3
+
+Idk
+askd
+asd
